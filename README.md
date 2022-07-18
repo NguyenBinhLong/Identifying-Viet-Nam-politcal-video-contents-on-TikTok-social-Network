@@ -12,14 +12,18 @@
 - class_image_classify_model.py => train model image classify
 - fusion_classify_model.py => train model fusion Ligh GBM
 
+
 #Predict video
 
 file: predict.py
+
 init id video
+
 video_id = "7106111741146189083"
+
 print('video_id:', video_id)
 
-### Predict Do:
+########### Predict Do:
 - download video from tiktok in to folder download_videos/
 - download audio from tiktok in to folder download_audio/
 - extract key frame from video to folder key_frames/
